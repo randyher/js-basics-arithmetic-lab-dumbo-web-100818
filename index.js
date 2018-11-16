@@ -1,9 +1,7 @@
-/*
-Variables defined in the test suite:
-- oldID
-- currentAge
+let newID = oldID + 1000000000
 
-You should NOT try to redefine any of the above variables.
-*/
+let ageIsValid = Number.isInteger(currentAge)
 
-// Write your code below this line!
+let randomNumber = Math.floor(Math.random() * 20)
+let randomInteger = Math.round(randomNumber)
+let randomUserID = randomInteger + 1000000000
